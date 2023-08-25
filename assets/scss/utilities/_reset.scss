@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	color-scheme: light;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	min-width: rem(320px);
+	font: 1em/1.4 "Museo Sans", sans-serif;
+	color: $color-purple;
+}
+
+button {
+	color: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	border: none;
+	background: none;
+
+	&::-moz-focus-inner {
+		border: none;
+	}
+}
+
+a {
+	color: inherit;
+}
+
+sup {
+	line-height: 1;
+}
+
+::-moz-placeholder {
+	opacity: 1;
+}

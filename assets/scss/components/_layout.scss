@@ -1,0 +1,17 @@
+.row {
+	display: flex;
+	flex-direction: column;
+
+	@media only screen and (min-width: $desktop-min) {
+		flex-direction: row;
+		min-height: 100vh;
+	}
+}
+
+.col {
+	padding: rem(16px);
+
+	@media only screen and (min-width: $desktop-min) {
+		width: 50%;
+	}
+}
