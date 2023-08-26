@@ -1,6 +1,6 @@
 .grid {
-	max-width: rem(600px);
-	max-height: rem(600px);
+	max-width: em(600px);
+	max-height: em(600px);
 	margin: auto;
 	list-style: none;
 	display: grid;
@@ -12,14 +12,15 @@
 	counter-reset: guy;
 
 	& > li {
+		aspect-ratio: 1;
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr;
-		background-color: $color-green;
+		background-color: $color-purple;
 		counter-increment: guy;
 
 		&:nth-child(2n) {
-			background-color: $color-purple;
+			background-color: $color-green;
 		}
 
 		&::before {
@@ -29,9 +30,10 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.2);
 			font-weight: bold;
-			font-size: em(128px);
+			font-size: em(192px);
+			line-height: 1;
 		}
 	}
 

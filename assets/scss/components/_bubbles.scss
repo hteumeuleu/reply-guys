@@ -1,0 +1,17 @@
+.bubbles {
+	margin: rem(32px) 0;
+	max-width: rem(588px);
+
+	// Messenger
+	p {
+		max-width: fit-content;
+		margin-bottom: em(8px, 15px);
+		border-radius: em(18px, 15px);
+		padding: em(8px, 15px) em(12px, 15px);
+		color: #050505;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+		font-size: em(15px);
+		line-height: em(20px, 15px);
+		background-color: #e4e6eb;
+	}
+}
