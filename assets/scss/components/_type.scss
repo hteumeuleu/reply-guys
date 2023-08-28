@@ -1,4 +1,7 @@
 .type {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	counter-increment: type;
 	padding-top: rem(32px);
 	padding-bottom: rem(64px);
