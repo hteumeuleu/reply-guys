@@ -1,8 +1,18 @@
 .bubbles {
 	margin: rem(32px) 0;
-	max-width: rem(400px);
+	max-width: rem(460px);
+	display: flex;
+	gap: em(8px);
+	align-items: flex-start;
 
-	// Messenger
+	img {
+		position: sticky;
+		top: rem(8px);
+		width: rem(52px);
+		height: rem(52px);
+		border-radius: 50%;
+	}
+
 	p {
 		max-width: fit-content;
 		margin-bottom: em(8px, 15px);

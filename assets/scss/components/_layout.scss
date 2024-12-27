@@ -2,9 +2,13 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	max-width: rem(600px);
+	margin: auto;
 
 	@media only screen and (min-width: $desktop-min) {
 		flex-direction: row;
+		width: 100%;
+		max-width: rem(1200px);
 	}
 }
 
